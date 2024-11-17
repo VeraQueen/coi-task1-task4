@@ -1,0 +1,48 @@
+{% schema %}
+{
+  "name": "My Custom Section",
+  "limit": 1,
+  "settings": [
+    {
+      "type": "image_picker",
+      "label": "Section Image",
+      "id": "section_image",
+      "default": "imgs/112313885bde841804deb2af4f299f46.jpg"
+    },
+    {
+      "type": "text",
+      "label": "Section Title",
+      "id": "section_title",
+      "default": "Handcrafted and responsibly sourced"
+    },
+    {
+      "type": "textarea",
+      "label": "Text Content 1",
+      "id": "section_text_1",
+      "default": "On the other hand, we denounce with righteous indignation and dislake men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue."
+    },
+    {
+      "type": "textarea",
+      "label": "Text Content 2",
+      "id": "section_text_2",
+      "default": "On the other hand, we denounce with righteous indignation and dislake men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue."
+    },
+    {
+      "type": "text",
+      "label": "Button Text",
+      "id": "button_text",
+      "default": "Learn more"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Default",
+      "category": "Custom"
+    }
+  ],
+  "enabled_on": {
+  "templates": ["*"],
+  "groups": ["*"]
+}
+}
+{% endschema %}
